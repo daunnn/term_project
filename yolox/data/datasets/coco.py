@@ -27,9 +27,8 @@ def remove_useless_info(coco):
             img.pop("coco_url", None)
             img.pop("date_captured", None)
             img.pop("flickr_url", None)
-        if "annotations" in coco.dataset:
-            for anno in coco.dataset["annotations"]:
-                anno.pop("segmentation", None)
+        for anno in coco.dataset["annotations"]:
+            anno.pop("segmentation", None)
 
 
 class COCODataset(Dataset):
@@ -39,9 +38,9 @@ class COCODataset(Dataset):
 
     def __init__(
         self,
-        data_dir=None,
-        json_file="instances_train2017.json",
-        name="train2017",
+        data_dir="/home/lobbyist1993/yolox/YOLOX/datasets/COCO/",
+        json_file="train.json",
+        name="train 2017",
         img_size=(416, 416),
         preproc=None,
         cache=False,
@@ -94,7 +93,7 @@ class COCODataset(Dataset):
         )
         max_h = self.img_size[0]
         max_w = self.img_size[1]
-        cache_file = os.path.join(self.data_dir, f"img_resized_cache_{self.name}.array")
+        cache_file = self.data_dir + "/img_resized_cache_" + self.name + ".array"
         if not os.path.exists(cache_file):
             logger.info(
                 "Caching images for the first time. This might take about 20 minutes for COCO"
@@ -187,11 +186,11 @@ class COCODataset(Dataset):
 
     def load_image(self, index):
         file_name = self.annotations[index][3]
-
+      #  print(self.data_dir,self.name,file_name)
         img_file = os.path.join(self.data_dir, self.name, file_name)
 
         img = cv2.imread(img_file)
-        assert img is not None, f"file named {img_file} not found"
+        assert img is not None
 
         return img
 
@@ -211,10 +210,8 @@ class COCODataset(Dataset):
     def __getitem__(self, index):
         """
         One image / label pair for the given index is picked up and pre-processed.
-
         Args:
             index (int): data index
-
         Returns:
             img (numpy.ndarray): pre-processed image
             padded_labels (torch.Tensor): pre-processed label data.

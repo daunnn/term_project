@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "wide-bivouac-345318",
+  "private_key_id": "5a4b16b06dc4c37c6c3e17941f0d92a9ca311060",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC1Eb8lxlLnMR3r\nCRJieD+8PTMhePeG2MbqE39ufaMssej/l6irE7yK6TZjw0XbAs0yRqEoPWM2rMns\ngDJ+/62YlTwDzJO06p2Q0YYbQYAu1muIZaxK11aqo85LTsi4STKZoydaibuP14jh\nUC/7VxLmKkq9Art2KT0jCt+fXohJ4Pv0Y0Stv+dG0jIrxPzlhpnG+ENk8PdH5ZK3\nnii9azD/PKYpzrGD9VpwDktXDI7yoEhFvCXzWnsGaU3uQc02ACk99vEzPGMLo5rn\nMtpOw22U/EZ9TjIIbODuLFi4ZXaH6hUo1Y7sdLUc2BR1zaKPRlZpGTg51rQsR3Fa\nx18LwunNAgMBAAECggEAIkIOz8dTpSFCX1cyjsXgjS1pEKKx9mXqUJxKxm1n44tv\noXggtemAiSmxnDN0coj3qNT7JcFjlZMgiyoAI84dGprVpYRdx+OB10YFIQAGEBaK\ndt6BuBFA+P0QCWiJCnDy7WWUiwk3HvJxF+wTf/LMBRcoV9V+AU+xHQGwKJd6ortn\nUHFRMJ82rr7EU4BryAWB+SAtrm1aKOUcnkOufP5vf8/y/szVwVFUi/WOyRv5IfO/\nZ4PTjgpaxkE9WpYaIA87l6kU3qEpOVMmrCWShxM7CSt9P/SCCSVomN9CUsKSh5+W\n2STeq+/lUphPXcgHG5fbULPwjZh5MSOZZVZ2+MN6EwKBgQD/3EA7kBHQIEE5E2s3\nJGulqWCAvtsXCGDP+ROLMt3nJVHlOiXj6mxoOj8Hp88L/ONSeW8M1UBaWBtzem4f\nXNHrTMbwOBsX7b8gynJhzb/iF1Va+hnQ3P4GPUGWg94l51mIKcW7xFEITsw72jTp\nMrpXt3MKSI01u6HkWp8q1/nyIwKBgQC1Kwu+g002kHs17u4BPzcirgy5UIm/8+L/\nxB65e2Dw5zbOoS/98G6it5aTZTAmC04qmEIXpObQ3HfgQe/ODYLGGsvBr7MEEFnu\nnzAsGbTPIRCGoIQ/sGJRLtcEWsRhO50VXl6aeioceArq+HRBVWIoXdzIZ6EesSDh\nAAk6gUKbTwKBgD8i7obEKmEdVHrtG8vjpNygSzv53L52Rs2LPRNgXfmn7+mMy8TO\nGCowFVWiRylCIiY76PdVuCeTDlMUpw/+K57Qt1aXwbfJ5xwEWO1hhDQaZempRa2Q\nmu6XNxQZPjxENoevJygKbaSLLUKnud7BsdHrZuvms1HLF0vuQNClsvvZAoGBAKMx\nBUE1USYne3UXpnilEutAUOHU9GBeNkohxXNa+fXGsI3skCh0nZQhP5fB/F8oq96e\njFp0Bh55mdn+Sx8W+Ieut3/e3qh4eioCZwgyl7ZEmHhMuxQLtGRghvq7ME5Nvq/y\n89C+3pQKZftGlqILYYHvGuPCxVW6RF2pBKcYrIDtAoGBAPRKE3iV57LUXTaDdySF\nrBFDqBfRzMGTYROTg/v0e1BbvwXmvRmFvVyrzbN3tX95QlUGrTRT7cGAl5irFcH6\nzDfsS5+QPY68yM5F/VX7HVd099qsEwFlp5EbDEpshB1Hshv9fU4ZuO+bs7vWV1ex\naMkBSyz9L8CrkDeh6RSD+Avw\n-----END PRIVATE KEY-----\n",
+  "client_email": "ocr-deeplearning@wide-bivouac-345318.iam.gserviceaccount.com",
+  "client_id": "105829974640064742973",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ocr-deeplearning%40wide-bivouac-345318.iam.gserviceaccount.com"
+}

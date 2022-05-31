@@ -327,6 +327,7 @@ class VOCDetection(Dataset):
         if output_dir is not None and not os.path.isdir(output_dir):
             os.mkdir(output_dir)
         for i, cls in enumerate(VOC_CLASSES):
+            print(VOC_CLASSES)
 
             if cls == "__background__":
                 continue

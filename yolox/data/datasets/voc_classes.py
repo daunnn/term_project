@@ -3,7 +3,11 @@
 # Copyright (c) Megvii, Inc. and its affiliates.
 
 # VOC_CLASSES = ( '__background__', # always index 0
-VOC_CLASSES = (
+
+
+VOC_CLASSES =("elevator","escalator","toilet")
+
+"""VOC_CLASSES = (
     "aeroplane",
     "bicycle",
     "bird",
@@ -24,4 +28,4 @@ VOC_CLASSES = (
     "sofa",
     "train",
     "tvmonitor",
-)
+)"""
